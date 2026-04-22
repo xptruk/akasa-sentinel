@@ -1,0 +1,10 @@
+[
+  {
+    "label": "My Main Store",
+    "confirmations": 10,
+    "view_key": "paste_your_private_view_key_here",
+    "public_spend_key": "paste_your_public_spend_key_here",
+    "webhook_url": "https://yourwebsite.com/api/monero-callback",
+    "webhook_secret": "your_strong_hmac_signing_key"
+  }
+]

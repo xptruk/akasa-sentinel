@@ -1,0 +1,21 @@
+# Rust build artifacts
+/target
+
+# Sensitive
+.env
+wallets.json
+*.db
+
+# Exclude all JSON but allow examples (optional safety)
+# *.json
+# !*.json.example
+
+# Editor / Backup files
+**/*.rs.bk
+.vscode/
+*.swp
+*~
+*.tar.gz
+
+# Log files
+*.log
